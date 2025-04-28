@@ -10,9 +10,9 @@ Función resta: resta la matriz A y B, posición por posición, guardando su res
 
 ### Programa principal matrices
 
-* [matrix_multiplication.cpp](https://github.com/Benjamin-Daza-Jimenez/INF221-2025-1-TAREA-1-master/blob/main/code/matrix_multiplication/matrix_multiplication.cpp): recorre archivos generados en matrix_input, cada 2 iteraciones del ciclo guarda ambas matrices necesarias para la multiplicación, realizando las operaciones necesarias a cada implementación desde la función prueba.
+* [matrix_multiplication.cpp](https://github.com/Benjamin-Daza-Jimenez/INF221-2025-1-TAREA-1-master/blob/main/code/matrix_multiplication/matrix_multiplication.cpp): recorre archivos generados en [matrix_input](https://github.com/Benjamin-Daza-Jimenez/INF221-2025-1-TAREA-1-master/tree/main/code/matrix_multiplication/data/matrix_input), cada 2 iteraciones del ciclo guarda ambas matrices necesarias para la multiplicación, realizando las operaciones necesarias a cada implementación desde la función prueba.
 
-Función prueba: toma el tiempo en realizar cada algoritmo y su respectivo uso de memoria, esta información es agregada en una linea adicional en el archivo de texto almacenado en measurements. Imprime por pantalla el algoritmo utilizado y la información antes dicha. Finalmente se almacena el resultado de la multiplicación de matrices en matrix_output.
+Función prueba: toma el tiempo en realizar cada algoritmo y su respectivo uso de memoria, esta información es agregada en una linea adicional en el archivo de texto almacenado en [measurements](https://github.com/Benjamin-Daza-Jimenez/INF221-2025-1-TAREA-1-master/tree/main/code/matrix_multiplication/data/measurements). Imprime por pantalla el algoritmo utilizado y la información antes dicha. Finalmente se almacena el resultado de la multiplicación de matrices en [matrix_output](https://github.com/Benjamin-Daza-Jimenez/INF221-2025-1-TAREA-1-master/tree/main/code/matrix_multiplication/data/matrix_output).
 
 ### Scripts
 

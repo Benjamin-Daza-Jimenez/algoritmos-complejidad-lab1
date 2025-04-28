@@ -1,0 +1,1 @@
+No se realiza ordenamiento con 10000000 de datos por demora indeterminada (+5 horas).

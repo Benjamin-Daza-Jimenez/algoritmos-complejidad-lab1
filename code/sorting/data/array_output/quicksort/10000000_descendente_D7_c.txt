@@ -1,0 +1,1 @@
+No se realiza ordenamiento con 10000000 de datos por Segmentation Fault.

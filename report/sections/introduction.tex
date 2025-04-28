@@ -1,0 +1,15 @@
+La eficiencia de los algoritmos es un factor fundamental para el rendimiento de las aplicaciones. El objetivo de este informe es implementar cuatro tipos de ordenamiento y dos tipos de multiplicación de matrices, con el fin de contrastar su rendimiento en distintas pruebas exhaustivas con conjutos de datos de tamaño variable, teniendo una visión completa de cada algoritmo.\\
+Los algoritmos considerados para el análisis de ordenamiento son:
+\begin{itemize}
+    \item Selection Sort: algoritmo que ordena una lista buscando el menor (o mayor) elemento de cada pasada, colocándolo en su posición correcta.
+    \item Merge Sort: algoritmo que divide el arreglo en mitades iguales hasta que queden subarreglos de 1 elemento, los fusiona en orden, comparando pares de elementos.
+    \item Quick Sort: algoritmo que elige un pivote, luego reordena el arreglo dejando a los elementos menores al pivote a la izquierda y los mayores a la derecha. Se aplica recursivamente a los subarreglos.
+    \item Función Sort de c++: Combina Quick Sort, Heap Sort e Insertion Sort, adaptándose al tipo de dato.
+\end{itemize}
+En cuanto a la multiplicación de matrices se evaluará:
+\begin{itemize}
+    \item Algoritmo de Naive: multiplica matrices siguiendo la definición clásica de la multiplicación.
+    \item Algoritmo de Strassen: divide cada matriz en 4 submatrices. Calcula 7 productos especiales y los usa para construir la matriz resultado.
+\end{itemize}
+Se espera que los tiempos de ejecución de la función Sort de c++, Merge Sort y Quick Sort sean similares en la mayoría de los casos, ya que estos algoritmos comparten una complejidad promedio de O(n log n). Sin embargo, se anticipa un tiempo mucho mayor para el algoritmo de Selection sort, debido a su complejidad cuadrática. Para la multiplicación de matrices, se espera el algoritmo de Strassen sea más rápido que el algoritmo de Naive, ya que posee una complejidad menor al cúbico. \\
+Se busca comprobar que los algoritmos de ordenamiento y de multiplicación de matrices presentan diferencias significativas en sus tiempos de ejecución, especialmente al trabajar con datasets de gran tamaño. Esto permitirá evidenciar cómo la eficiencia algorítmica impacta directamente en el rendimiento computacional a mayor escala.

@@ -1,0 +1,17 @@
+Los datasets para algoritmos de ordenamiento de un arreglo unidimensional están compuestos de números enteros almacenados en archivos de nombre \{n\}\_\{t\}\_\{d\}\_\{m\}.txt\:
+\begin{itemize}
+    \item n hace referencia a la cantidad de elementos, pertenecuenco al conjunto N = \{$10^1$,$10^3$,$10^5$,$10^7$\}.
+    \item t hace referencia al tipo de matriz, perteneciendo al conjunto T = \{ascendente, descendente, aleatorio\}.
+    \item d hace referencia al conjunto dominio de cada elemento del arreglo d = \{D1,D7\}, donde D1 implica que el dominio es \{0,1,2,...,9\} y D7 implica que el dominio es \{0,1,2,...,$10^7$\}.
+    \item m hace referencia a la muestra aleatoria y pertenece al conjunto M=\{a,b,c\}
+\end{itemize}
+
+Los datasets para algoritmos de multiplicación de matrices cuadradas están compuestos de n números en n filas almacenados en archivos de nombre \{n\}\_\{t\}\_\{d\}\_\{m\}\_1.txt y \{n\}\_\{t\}\_\{d\}\_\{m\}\_2.txt\:
+\begin{itemize}
+    \item n hace referencia a la dimensión de la matriz (n filas y n columnas) y pertenece al conjunto N = \{$10^4$, $10^6$, $10^8$, $10^{10}$\}.
+    \item t hace referencia al tipo de matriz, y pertenece al conjunto T = \{dispersa, diagonal, densa\}. 
+    \item d hace referencia al conjunto dominio de cada coeficiente de la matriz d = \{D0,D10\}, donde D0 implica que el dominio es \{0,1\} y D10 que el dominio es \{0,1,2,3,...,9\}.
+    \item m hace referencia a la muestra aleatoria y pertenece al conjunto M = \{a,b,c\}.
+\end{itemize}
+
+Tener una variedad de datasets es importante para evaluar correctamente algoritmos de ordenamiento y para la multiplicación de matrices. El tamaño y dimensiones del conjunto de datos permite analizar cómo escalan con el tiempo los algoritmos. A su vez, la distribución de los datos afecta al rendimiento, especialmente en algoritmos que dependen de comparaciones o tienen estructuras distintas. Además, algunos algoritmos funcionan bien con datos ordenados, pero mal con otros casos. La aleatoriedad nos asegura que el algoritmo no esté optimizado para un paso en particular, teniendo una evaluación más completa.

@@ -1,7 +1,7 @@
 # Documentación
 
 ## Multiplicación de matrices
-* naive.spp: Multiplica las matrices m1 y m2, guardando la suma de las multiplicaciones en m3 (método de multiplicación de matrices tradicional).
+* [naive.spp](https://github.com/Benjamin-Daza-Jimenez/INF221-2025-1-TAREA-1-master/blob/main/code/matrix_multiplication/algorithms/naive.cpp): Multiplica las matrices m1 y m2, guardando la suma de las multiplicaciones en m3 (método de multiplicación de matrices tradicional).
 
 * strassen.cpp: Divide las matrices en 4 sub matrices, de las cuales se realizarán operaciones propuestas por strassen, llamando a la función suma y resta para realizar estas operaciones. 
 

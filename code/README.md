@@ -45,3 +45,7 @@ Función prueba: toma el tiempo en realizar cada algoritmo y su respectivo uso d
 * [array_generator.py](https://github.com/Benjamin-Daza-Jimenez/INF221-2025-1-TAREA-1-master/blob/main/code/sorting/scripts/array_generator.py): genera arrays de distintos tipos y tamaños, almacenándolas en la carpeta [array_input](https://github.com/Benjamin-Daza-Jimenez/INF221-2025-1-TAREA-1-master/tree/main/code/sorting/data/array_input).
 
 * [plot_generator.py](https://github.com/Benjamin-Daza-Jimenez/INF221-2025-1-TAREA-1-master/blob/main/code/sorting/scripts/plot_generator.py): abre los archivos almacenados en measurements y genera un gráfico de tiempo y un gráfico de memoria utilizada por los algoritmos en cada ejecución
+
+### Observación
+
+No permite realizar push de los archivos input utilizados.

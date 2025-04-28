@@ -16,32 +16,32 @@ Función prueba: toma el tiempo en realizar cada algoritmo y su respectivo uso d
 
 ### Scripts
 
-* [matrix_generator.py](https://github.com/Benjamin-Daza-Jimenez/INF221-2025-1-TAREA-1-master/blob/main/code/matrix_multiplication/scripts/matrix_generator.py): genera matrices de distintos tipos y tamaños, almacenándolas en la carpeta matrix_input.
+* [matrix_generator.py](https://github.com/Benjamin-Daza-Jimenez/INF221-2025-1-TAREA-1-master/blob/main/code/matrix_multiplication/scripts/matrix_generator.py): genera matrices de distintos tipos y tamaños, almacenándolas en la carpeta [matrix_input](https://github.com/Benjamin-Daza-Jimenez/INF221-2025-1-TAREA-1-master/tree/main/code/matrix_multiplication/data/matrix_input).
 
-* [plot_generator.py](https://github.com/Benjamin-Daza-Jimenez/INF221-2025-1-TAREA-1-master/blob/main/code/matrix_multiplication/scripts/plot_generator.py): abre los archivos almacenados en measurements y genera un gráfico de tiempo y un gráfico de memoria utilizada por los algoritmos en cada ejecución.
+* [plot_generator.py](https://github.com/Benjamin-Daza-Jimenez/INF221-2025-1-TAREA-1-master/blob/main/code/matrix_multiplication/scripts/plot_generator.py): abre los archivos almacenados en [measurements](https://github.com/Benjamin-Daza-Jimenez/INF221-2025-1-TAREA-1-master/tree/main/code/matrix_}multiplication/data/measurements) y genera un gráfico de tiempo y un gráfico de memoria utilizada por los algoritmos en cada ejecución. Ambos son almacenados en [plots](https://github.com/Benjamin-Daza-Jimenez/INF221-2025-1-TAREA-1-master/tree/main/code/matrix_multiplication/data/plots).
 
 ## Ordenamiento de arreglo unidimensional
 
-* mergesort.cpp: busca llamar de forma recursiva a sí misma en sus dos mitades y, a la función Merge encargada de realizar la union. Su objetivo es dividir el arreglo en la mitad hasta que se vuelva un vector de una posición. Utiliza la función Merge para mezclar.
+* [mergesort.cpp](https://github.com/Benjamin-Daza-Jimenez/INF221-2025-1-TAREA-1-master/blob/main/code/sorting/algorithms/mergesort.cpp): busca llamar de forma recursiva a sí misma en sus dos mitades y, a la función Merge encargada de realizar la union. Su objetivo es dividir el arreglo en la mitad hasta que se vuelva un vector de una posición. Utiliza la función Merge para mezclar.
 
 Función Merge: mezcla los arreglos que nos queden restantes considerando el valor de los elementos.
 
-* quicksort.cpp: se llama recursivamente a sí misma y a la función partición, la cual busca el punto medio entre los menores al pivote y los mayores al pivote.
+* [quicksort.cpp](https://github.com/Benjamin-Daza-Jimenez/INF221-2025-1-TAREA-1-master/blob/main/code/sorting/algorithms/quicksort.cpp): se llama recursivamente a sí misma y a la función partición, la cual busca el punto medio entre los menores al pivote y los mayores al pivote.
 
 Función particion: busca realizar el sort a partir de un pivote (en este caso el primer elemento del vector). si es mayor avanza j, si es menor avanza j e i.
 
-* selectionsort.cpp: se recorre caso a caso, comparando cada uno de los valores con los siguientes, intercambiando posiciones para luego, junto a una variable aux, cambiar los valores en la lista.
+* [selectionsort.cpp](https://github.com/Benjamin-Daza-Jimenez/INF221-2025-1-TAREA-1-master/blob/main/code/sorting/algorithms/selectionsort.cpp): se recorre caso a caso, comparando cada uno de los valores con los siguientes, intercambiando posiciones para luego, junto a una variable aux, cambiar los valores en la lista.
 
-* sort.cpp: función sort de C++.
+* [sort.cpp](https://github.com/Benjamin-Daza-Jimenez/INF221-2025-1-TAREA-1-master/blob/main/code/sorting/algorithms/sort.cpp): función sort de C++.
 
 ### Programa principal
 
-* sorting.cpp: recorre archivos generados en array_input, cada iteración del ciclo realiza las operaciones necesarias a cada implementación desde la función prueba.
+* [sorting.cpp](https://github.com/Benjamin-Daza-Jimenez/INF221-2025-1-TAREA-1-master/blob/main/code/sorting/sorting.cpp): recorre archivos generados en [array_input](https://github.com/Benjamin-Daza-Jimenez/INF221-2025-1-TAREA-1-master/tree/main/code/sorting/data/array_input), cada iteración del ciclo realiza las operaciones necesarias a cada implementación desde la función prueba.
 
-Función prueba: toma el tiempo en realizar cada algoritmo y su respectivo uso de memoria, esta información es agregada en una linea adicional en el archivo de texto almacenado en measurements. Imprime por pantalla el algoritmo utilizado y la información antes dicha. Finalmente se almacena el resultado del ordenamiento de en array_output.
+Función prueba: toma el tiempo en realizar cada algoritmo y su respectivo uso de memoria, esta información es agregada en una linea adicional en el archivo de texto almacenado en [measurements](https://github.com/Benjamin-Daza-Jimenez/INF221-2025-1-TAREA-1-master/tree/main/code/sorting/data/measurements). Imprime por pantalla el algoritmo utilizado y la información antes dicha. Finalmente se almacena el resultado del ordenamiento de en [array_output](https://github.com/Benjamin-Daza-Jimenez/INF221-2025-1-TAREA-1-master/tree/main/code/sorting/data/array_output).
 
 ### Scripts
 
-* array_generator.py: genera arrays de distintos tipos y tamaños, almacenándolas en la carpeta matrix_input.
+* [array_generator.py](https://github.com/Benjamin-Daza-Jimenez/INF221-2025-1-TAREA-1-master/blob/main/code/sorting/scripts/array_generator.py): genera arrays de distintos tipos y tamaños, almacenándolas en la carpeta [array_input](https://github.com/Benjamin-Daza-Jimenez/INF221-2025-1-TAREA-1-master/tree/main/code/sorting/data/array_input).
 
-* plot_generator.py: abre los archivos almacenados en measurements y genera un gráfico de tiempo y un gráfico de memoria utilizada por los algoritmos en cada ejecución
+* [plot_generator.py](https://github.com/Benjamin-Daza-Jimenez/INF221-2025-1-TAREA-1-master/blob/main/code/sorting/scripts/plot_generator.py): abre los archivos almacenados en measurements y genera un gráfico de tiempo y un gráfico de memoria utilizada por los algoritmos en cada ejecución
